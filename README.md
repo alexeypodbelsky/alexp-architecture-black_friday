@@ -1,12 +1,6 @@
-# Задание 1
-Все диаграммы к заданию 1 находится в папке "tasks/task1-diagrams"
-
-# Задания 2, 3 и 4
-Диаграмма находится по пути: "tasks/task1-diagrams/sharding-repl-cache.drawio"
-
 ## Как запустить
 
-Идем в директорию "tasks/task4-sharding-repl-cache"
+Идем в директорию "sharding-repl-cache"
 
 Запускаем mongodb и приложение:
 
@@ -34,5 +28,5 @@ docker compose up -d
 
 Выполните несколько GET-запросов подряд на эндпоинт "http://localhost:8080/helloDoc/users". Второй и последующие вызовы будут выполняются <100мс.
 
-# Задание 5 и 6
-Итоговая диаграмма по 5 и 6 заданию лежит в папке: "tasks/task6-cdn-diagram"
+# Задание 1, 5 и 6
+Итоговая диаграмма /task_1_5_6_diagram.drawio
