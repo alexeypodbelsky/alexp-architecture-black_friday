@@ -1,8 +1,8 @@
+# mongo-sharding-repl-cache
+
 ## Как запустить
 
-Идем в директорию "sharding-repl-cache"
-
-Запускаем mongodb и приложение:
+Запускаем mongodb и приложение
 
 ```shell
 docker compose up -d
@@ -27,6 +27,3 @@ docker compose up -d
 Откройте в браузере http://localhost:8080/docs
 
 Выполните несколько GET-запросов подряд на эндпоинт "http://localhost:8080/helloDoc/users". Второй и последующие вызовы будут выполняются <100мс.
-
-# Задание 1, 5 и 6
-Итоговая диаграмма /task_1_5_6_diagram.drawio
